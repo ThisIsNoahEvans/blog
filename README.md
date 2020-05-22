@@ -1,2 +1,2 @@
-# blog
-My personal blog
+# Noah's Blog
+Welcome to my blog! I'll start posting soon....
