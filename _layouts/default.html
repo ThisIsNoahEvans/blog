@@ -17,18 +17,12 @@
   <body>
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1>Noah's Blog</h1>
         {% if site.description or site.github.project_tagline %}
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <p>Blogging about my personal life</p>
+        <small>Looking for my technology and developer blog? Check it out <a href='https://noahthedev.xyx'>here</a></small>
         {% endif %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        <ul>
-        {% if site.show_downloads %}
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        {% endif %}
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
+  
       </header>
       <section>
 
@@ -37,10 +31,7 @@
       </section>
     </div>
     <footer>
-    {% if site.github.is_project_page %}
-      <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-    {% endif %}
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+      <p>For any issues regarding this site, the content contained inside, or anything relatable to Noah Evans (including, but not limited to this blog and subdomains of noahevans.me) please send an <a href='mailto:hello@noahevans.me'>email</a>.‪<br>This website is not regularly updated. If you have found incorrect or outdated data, send an <a href='mailto:hello@noahevans.me'>email</a>.<br>noahevans.me and all its subdomains, URLs, pages and property © Noah Evans 2020</p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
